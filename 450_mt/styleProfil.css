@@ -1,0 +1,133 @@
+/* body */
+body {
+    font-family: Arial;
+    background-color: white;
+}
+
+
+/* logo brand */
+.brand {
+    width: 60px;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+}
+
+.subLogo {
+    padding-left: 15px;
+    font-size: larger;
+    padding-top: 20px;
+    color: rgb(0,113,188);
+}
+
+
+/* navigasi */
+nav {
+    background-color: rgb(58, 176, 255);
+    border-radius: 25px;
+    padding: none;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.link-menu {
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.link-menu:hover {
+    color: white;
+    background-color: rgb(247,147,30);
+    border-radius: 20px;
+}
+
+
+/* profil */
+.profil {
+    display: flex;
+}
+
+.farel {
+    width: 300px;
+    height: auto;
+    padding: 25px;
+}
+
+.deskripsi {
+    padding: 10px;
+    font-size: large;
+}
+
+
+
+/* tampilan mobile */
+@media (max-width: 600px) {
+    
+    /* logo brand  */
+    .brand {
+        width: 10%;
+    }
+
+    .subLogo {
+        font-size: medium;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+
+    /* navigasi */
+    ul {
+        justify-content: end;
+        padding: 10px;
+    }
+
+    a {
+        font-size: smaller;
+    }
+
+    
+    /* isi penjelasan */
+    .judul {
+        font-size: small;
+    }
+
+    .foto {
+        width: 80%;
+    }
+
+    .penjelasan {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10%;
+    }
+
+    /* profil */
+    .profil {
+        display:block;
+        text-align: center;
+    }
+
+    .farel {
+        width: 60%;
+        height: auto;
+        padding: 25px;
+    }
+
+    .deskripsi {
+        padding: 10%;
+        font-size: medium;
+    }
+
+}

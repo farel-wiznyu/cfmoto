@@ -1,0 +1,98 @@
+/* body */
+body {
+    background-color: white;
+    font-family: Arial;
+}
+
+
+/* logo brand */
+.brand {
+    width: 60px;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+}
+
+.subLogo {
+    padding-left: 15px;
+    font-size: larger;
+    padding-top: 20px;
+    color: rgb(0,113,188);
+    
+}
+
+
+/* navigasi */
+nav {
+    background-color: rgb(58, 176, 255);
+    border-radius: 25px;
+    padding: none;
+}
+
+ul {
+    display: flex;
+    justify-content: end;
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+.link-menu {
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
+
+.link-menu:hover {
+    color: white;
+    background-color: rgb(247,147,30);
+    border-radius: 20px;
+}
+
+
+/* menu contact */
+.contact {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contactButton {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(247,147,30);
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+/* tampilan mobile */
+@media (max-width: 600px) {
+    
+    /* logo brand */
+    .brand {
+        width: 10%;
+    }
+
+    .subLogo {
+        font-size: medium;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+
+    /* navigasi */
+    ul {
+        justify-content: end;
+        padding: 10px;
+    }
+
+    a {
+        font-size: smaller;
+    }
+
+}
